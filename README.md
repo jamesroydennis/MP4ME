@@ -1,28 +1,23 @@
-# mp4me
-Repair Truncated MP4 Files (Cheap, Easy &amp; Good)
-MP4Me is a tool designed to help users with fixing truncated MP4 files.
+# MP4Me Project
 
-## Objective
-
-The purpose of this project is to provide a command-line interface (CLI) tool that allows users to:
-1. Provide a corrupt MP4 file.
-2. Provide a sample MP4 file for reference.
-3. Output a repaired MP4 file.
+MP4Me is a command-line tool that processes video files. This project is designed to accept a file path, process the file, and output results.
 
 ## Features
-- Input handling
-- File comparison for repairs
-- Output generation
 
-## Installation
+1. **Input**: Accepts a single file path.
+2. **Processing**: Currently checks if the file exists.
+3. **Output**: Outputs a confirmation message when the file is successfully processed.
 
-To install MP4Me, clone the repository and install dependencies:
+## How to Run
 
-## Usage
+1. Ensure that Python is installed on your machine.
+2. Clone the repository and navigate to the `mp4me` directory.
+3. Install any necessary dependencies (if applicable).
+4. Run the `cli_tool.py` script with the path to the file you want to process.
 
-Run the command line tool:
-python cli_tool.py <corrupt_file> <sample_file> <output_file>
+### Example
 
-## License
+To run the tool, use the following command (replace `<path_to_your_file>` with the actual file path you want to test):
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+python cli_tool.py <path_to_your_file>
